@@ -10,7 +10,7 @@ button{
     justify-content: center;
     align-items: center;
 }
-.App {
+.app {
     display: flex;
     flex-direction: column;
     min-height: 100vh; 
@@ -33,7 +33,7 @@ button{
   
   
   .left,
-  .right {
+  .preview {
     width: 50%;
     height: 100vh; 
     padding: 20px;
@@ -46,7 +46,7 @@ button{
     border-radius: 5px 0 0 5px;
   }
   
-  .right {
+  .preview {
     background-color: #f9f9f9;
     border-left: 1px solid #ddd;
     border-radius: 0 5px 5px 0;

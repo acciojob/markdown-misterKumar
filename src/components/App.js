@@ -11,13 +11,13 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <div className="app">
       <h1>Markdown Editor</h1>
       <div className="markdown-container">
         <div className="left">
           <MarkdownEditor  onTextChange={handleTextChange} />
         </div>
-        <div className="right">
+        <div className="preview">
           <MarkdownPreview  markdownText={markdownText} />
         </div>
       </div>
